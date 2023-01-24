@@ -6,10 +6,11 @@ import { BrowserRouter, Rotes, Route } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import Tweets from './Pages/Tweets';
 // TODO - import문을 이용하여 MyPage, About 컴포넌트를 불러오세요.
-import MyPage,
+import MyPage from './'
 
 const App = () => {
   return (
+  <BrowserRouter>  
     <div>
       {/* TODO - BrowserRouter 컴포넌트를 작성합니다. */}
       <div className="App">
@@ -22,6 +23,7 @@ const App = () => {
         </main>
       </div>
     </div>
+  </BrowserRouter>
   );
 };
 
