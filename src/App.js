@@ -2,10 +2,11 @@ import React from 'react';
 import './App.css';
 import './global-style.css';
 // TODO - react-router-dom을 설치 후, import 구문을 이용하여 BrowserRouter, Routes, Route 컴포넌트를 불러오세요.
-
+import { BrowserRouter, Rotes, Route } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import Tweets from './Pages/Tweets';
 // TODO - import문을 이용하여 MyPage, About 컴포넌트를 불러오세요.
+import MyPage,
 
 const App = () => {
   return (
